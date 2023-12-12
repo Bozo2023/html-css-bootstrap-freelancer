@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+header{ 
+    
+    
+}
 .first{
     display: flex;
     justify-content: space-between;
@@ -11,9 +15,23 @@
     text-transform: uppercase;
     align-items: baseline;
     padding-top: 10px;
+    font-size: smaller;
+    height: 50px;
+    
 }
 ul{ 
     list-style-type: none; 
     display: flex;
     gap: 10px;
+    font-size: smaller;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+.text-center{
+    text-transform: uppercase;
+}
+.svg{ width: 100px;
+
 }

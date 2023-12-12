@@ -33,5 +33,10 @@ img{
     text-transform: uppercase;
 }
 .svg{ width: 100px;
-
+}
+.para{
+    display: flex;
+}
+p{
+    color: white;
 }

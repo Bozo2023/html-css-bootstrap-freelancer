@@ -3,40 +3,35 @@
     padding: 0;
     box-sizing: border-box;
 }
-header{ 
+header{
+    background-color:#2f3e50 ;
+}
+.list-group-item{
+    background-color: transparent;
+    border: 0px;
+}
+.one{
+    background-color: white;
+    width: 15%;
+    height: 3px;
+}
+.tre{
+    background-color: #2f3e50;
+    width: 15%;
+    height: 3px;
     
-    
 }
-.first{
-    display: flex;
-    justify-content: space-between;
-    background-color: rgb(22, 20, 20);
-    color: white;
-    text-transform: uppercase;
-    align-items: baseline;
-    padding-top: 10px;
-    font-size: smaller;
-    height: 50px;
-    
+.first ul li{
+    position: relative;
 }
-ul{ 
-    list-style-type: none; 
-    display: flex;
-    gap: 10px;
-    font-size: smaller;
-}
-img{
-    height: 100px;
-    width: 100px;
-}
-.text-center{
-    text-transform: uppercase;
-}
-.svg{ width: 100px;
-}
-.para{
-    display: flex;
-}
-p{
-    color: white;
+.first ul li:not(li:last-child)::after{
+    content:"";
+    height: 2px;
+    width: 10px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -15px;
+
 }

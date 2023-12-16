@@ -33,5 +33,12 @@ header{
     top: 50%;
     transform: translateY(-50%);
     right: -15px;
-
+}
+form input,
+form textarea {
+    border: 0;
+    border-bottom: 1px solid grey;
+}
+footer{
+    background-color: #3e546d;
 }
